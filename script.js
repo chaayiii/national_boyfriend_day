@@ -70,3 +70,15 @@ musicBtn.addEventListener('click', () => {
     musicBtn.textContent = '🎵';
   }
 });
+function toggleMusic() {
+  const music = document.getElementById("bgMusic");
+  const button = document.getElementById("musicBtn");
+
+  if (music.paused) {
+    music.play();
+    button.textContent = "⏸️";
+  } else {
+    music.pause();
+    button.textContent = "🎵";
+  }
+}
