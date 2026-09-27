@@ -178,3 +178,18 @@ h1, h2, .accent { font-family: 'Caveat', cursive; }
   15% { opacity: 1; }
   100% { opacity: 0; transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy))) scale(1); }
 }
+#musicBtn {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  width: 58px;
+  height: 58px;
+  border: none;
+  border-radius: 50%;
+  background: #e88aaa;
+  color: white;
+  font-size: 25px;
+  box-shadow: 0 8px 25px rgba(180, 90, 120, 0.3);
+  cursor: pointer;
+  z-index: 9999;
+}
